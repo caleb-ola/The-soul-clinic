@@ -118,7 +118,7 @@ const Header = () => {
 
             <form className="d-flex">
               <button
-                className="btn btn-outline-success donate-btn"
+                className="btn btn-outline-success shadow-none donate-btn"
                 type="submit"
               >
                 DONATE

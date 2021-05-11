@@ -66,7 +66,7 @@ const Events = () => {
           </div>
         </div>
         <div className="faq-btn-container">
-          <button className="btn faq-btn"> SEE ALL EVENTS</button>
+          <button className="btn shadow-none faq-btn"> SEE ALL EVENTS</button>
         </div>
       </div>
     </section>

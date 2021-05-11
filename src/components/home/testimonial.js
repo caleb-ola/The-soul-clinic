@@ -101,7 +101,7 @@ const Testimonial = () => {
           <div className="icons col-lg-2 col-md-12 col-sm-12">
             {/* <i class="fas fa-chevron-circle-left fa-2x"></i>
             <i class="fas fa-chevron-circle-right fa-2x"></i> */}
-            <button className="btn see-all-btn">SEE ALL</button>
+            <button className="btn shadow-none see-all-btn">SEE ALL</button>
           </div>
         </div>
         <div className="row">

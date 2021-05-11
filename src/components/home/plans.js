@@ -17,7 +17,7 @@ const Plans = () => {
               </p>
             </div>
             <div className="icons col-lg-2 col-md-12 col-sm-12">
-              <button className="btn see-all-btn">SEE ALL</button>
+              <button className="btn shadow-none see-all-btn">SEE ALL</button>
             </div>
           </div>
           <div className="row card-row">

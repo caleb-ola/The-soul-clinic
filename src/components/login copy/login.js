@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
-import Footer from "./footer";
-import "./register.css";
+import Footer from "../footer";
+import "../authentication/register.css";
 
-const Register = () => {
+const Login = () => {
   const [showPass, setShowPass] = useState(false);
   const [showConfPass, setShowConfPass] = useState(false);
 
@@ -45,8 +45,7 @@ const Register = () => {
             </div>
             <div className="container ">
               <div className="row register-header">
-                {" "}
-                <h3>Join The Soul Clinic to speak with a coach</h3>
+                <h3>Login to your account</h3>
               </div>
 
               <form>
@@ -61,8 +60,8 @@ const Register = () => {
                     />
                   </div>
                   <div className="row password-row">
-                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 ">
-                      <label for="create-password">Create password</label>
+                    <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+                      <label for="create-password">Password</label>
                       <input
                         placeholder="Password"
                         type={showPass ? "text" : "password"}
@@ -75,36 +74,16 @@ const Register = () => {
                         onClick={togglePassword}
                       ></i>
                     </div>
-                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                      <label for="confirm-password">Confirm password</label>
-                      <input
-                        placeholder="Confirm password"
-                        type={showConfPass ? "text" : "password"}
-                        name="confirm-password"
-                        className="confirm-password"
-                      />
-                      <i
-                        class={showConfPass ? "far fa-eye-slash" : "far fa-eye"}
-                        id="togglePassword"
-                        onClick={toggleConfirmPassword}
-                      ></i>
-                    </div>
                   </div>
-                  <div className="row">
-                    <p>
-                      {" "}
-                      <input type="checkbox" name="register-checkbox" /> I
-                      accept The Soul Clinic's{" "}
-                      <a href="#">Terms and Conditions</a> and{" "}
-                      <a href="#">Privacy Policy.</a>
-                    </p>
-                  </div>
-                  <div className="row">
-                    <button type="submit" className="btn register-btn">
-                      SCHEDULE A FREE CALL
+                  <div className="row submit-row">
+                    <button
+                      type="submit"
+                      className="btn register-btn shadow-none"
+                    >
+                      LOGIN{" "}
                     </button>
                     <p>
-                      Already have an account? <a href="#">Login</a>
+                      <a href="#">Forgot password?</a>
                     </p>
                   </div>
                 </div>
@@ -118,7 +97,13 @@ const Register = () => {
                   className="img-fluid down-wave"
                 />
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-6 "></div>
+              <div className="col-lg-6 col-md-6 col-sm-6 down-wave-container">
+                <img
+                  src="images/bottom-wave22.png"
+                  alt="top wave"
+                  className="img-fluid down-wave2"
+                />
+              </div>
             </div>
           </div>
           <div className=" col-xl-6 col-lg-6 col-md-12 col-sm-12 register-right">
@@ -136,4 +121,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Login;

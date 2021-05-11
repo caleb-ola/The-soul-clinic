@@ -106,7 +106,7 @@ const Faq = () => {
           </div>
         </div>
         <div className="faq-btn-container">
-          <button className="btn faq-btn"> SEE MORE</button>
+          <button className="btn shadow-none faq-btn"> SEE MORE</button>
         </div>
       </div>
     </section>

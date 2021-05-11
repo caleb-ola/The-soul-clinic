@@ -60,7 +60,7 @@ const app = () => {
           </p>
         </div>
         <div className="hero-button">
-          <a href="/register" class="btn btn-lg hero-btn">
+          <a href="/register" class="btn btn-lg  shadow-none hero-btn">
             GET STARTED
           </a>
         </div>
@@ -81,7 +81,9 @@ const app = () => {
           </p>
         </div>
         <div className="hero-button">
-          <button class="btn btn-lg hero-btn">TAKE A QUICK SCAN</button>
+          <button class="btn btn-lg shadow none hero-btn">
+            TAKE A QUICK SCAN
+          </button>
         </div>
       </Slide>
 
@@ -107,7 +109,9 @@ const app = () => {
           </p>
         </div>
         <div className="hero-button">
-          <button class="btn btn-lg hero-btn">GET ON A FREE CALL</button>
+          <button class="btn btn-lg shadow-none hero-btn">
+            GET ON A FREE CALL
+          </button>
         </div>
       </Slide>
 

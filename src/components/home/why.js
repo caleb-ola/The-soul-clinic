@@ -33,7 +33,9 @@ const Why = () => {
             </div>
 
             <div className="learn-btn">
-              <button className="btn learn-more-btn">LEARN MORE</button>
+              <button className="btn shadow-none learn-more-btn">
+                LEARN MORE
+              </button>
             </div>
           </div>
         </div>
@@ -55,7 +57,7 @@ const Why = () => {
             </div>
 
             <div className="learn-btn">
-              <button className="btn learn-more-btn">DONATE</button>
+              <button className="btn shadow-none learn-more-btn">DONATE</button>
             </div>
           </div>
 

@@ -10,6 +10,7 @@ import Why from "../components/home/why";
 import Faq from "../components/home/faq";
 import Events from "../components/home/events";
 import Footer from "../components/footer";
+
 const Home = () => {
   return (
     <div className="home">
@@ -22,7 +23,6 @@ const Home = () => {
       <Faq />
       <Events />
       <Footer />
-      {/* HOME PAGE */}
     </div>
   );
 };

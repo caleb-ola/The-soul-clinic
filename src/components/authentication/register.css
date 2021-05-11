@@ -1,0 +1,387 @@
+#register {
+  max-width: 100%;
+  font-family: "Circular Book", sans-serif;
+  /* font-family: "Circular Medium", sans-serif; */
+  /* font-family: 'Circular Bold', sans-serif; */
+}
+#register .row {
+  margin: 0;
+  /* padding: 0; */
+}
+.register-right {
+  padding: 0;
+}
+.register-left {
+  padding: 0;
+}
+.container-row {
+  margin: 0;
+}
+.logo-container {
+  margin: 20px auto;
+  padding: 0;
+}
+.wave-container {
+  padding: 0;
+}
+.register-logo {
+  width: 60px;
+  height: auto;
+}
+.register-header h3 {
+  width: 100%;
+  margin: 20px 0;
+  font-family: "Circular Medium", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #190114;
+  text-align: center;
+}
+.form-container {
+  /* text-align: center; */
+  /* margin: auto; */
+}
+.form-container input {
+  margin: 5px;
+}
+label {
+  padding: 0;
+}
+.email-row label {
+  font-size: 0.9rem;
+  padding: 0;
+}
+.email-row input.email {
+  padding: 10px 20px;
+  font-size: 0.8rem;
+  border-radius: 50px;
+  border: 1px solid #190114;
+}
+.email-row input.email:hover,
+.email-row input.email:focus {
+  outline-width: 0;
+  border: 1px solid #de08b3;
+}
+.password-row {
+  padding: 0;
+}
+.password-row label {
+  font-size: 0.9rem;
+}
+.password-row input {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 0.8rem;
+  border-radius: 50px;
+  border: 1px solid #190114;
+}
+.password-row input:hover,
+.password-row input:focus {
+  outline-width: 0;
+  border: 1px solid #de08b3;
+}
+#register i {
+  margin-left: -40px;
+  color: #1901147e;
+}
+.down-wave {
+  transform: rotate(180deg);
+}
+.down-wave-container {
+  padding: 0;
+}
+.bottom-waves {
+  margin: 0 0 0 0;
+}
+.top-wave {
+  /* position: absolute; */
+  width: 100%;
+  height: auto;
+  display: none;
+}
+.accept-row {
+  font-size: 0.8rem;
+  text-align: center;
+}
+.accept-row p input {
+  /* visibility: hidden; */
+}
+.accept-row input,
+.accept-row a {
+  color: #ec03be;
+  text-decoration: none;
+  font-weight: 600;
+  border: 0;
+}
+.register-btn {
+  background-color: #ec03be;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  margin: 10px auto 5px;
+}
+.register-btn:hover {
+  background-color: #de08b3;
+  color: #fff;
+}
+.submit-row p {
+  font-size: 0.8rem;
+  text-align: center;
+}
+.submit-row a {
+  color: #ec03be;
+  text-decoration: none;
+  font-weight: 600;
+  border: 0;
+}
+.submit-row a,
+.accept-row input,
+.accept-row a:hover {
+  color: #de08b3;
+}
+.custom-control-input {
+  margin-top: 40px;
+}
+.register-right {
+  display: none;
+}
+img.img-fluid.down-wave2 {
+  width: 100%;
+  display: none;
+  transform: rotate(180deg);
+}
+
+@media only screen and (min-width: 768px) {
+  img.img-fluid.down-wave2 {
+    width: 100%;
+    display: revert;
+  }
+  .top-wave {
+    /* position: absolute; */
+    width: 100%;
+    height: auto;
+    display: inline;
+  }
+  .register-header {
+    width: 60%;
+    margin: 40px 0;
+    font-family: "Circular Medium", sans-serif;
+    font-weight: 600;
+    color: #190114;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .register-right {
+    display: inline;
+  }
+  .submit-row {
+    padding: 5px 0 10px;
+  }
+  .submit-row p {
+    font-size: 0.8rem;
+  }
+
+  .bottom-waves {
+    position: absolute;
+    bottom: 0;
+  }
+  .register-left {
+    position: relative;
+  }
+  .register-header h3 {
+    margin: 25px 0;
+    font-size: 1.2rem;
+    color: #190114;
+    text-align: left;
+  }
+
+  .form-container input {
+    margin: 10px 0;
+  }
+  label {
+    padding: 0;
+  }
+  .email-row label {
+    font-size: 1rem;
+    padding: 0;
+  }
+  .email-row input.email {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    border-radius: 50px;
+    border: 1px solid #190114;
+  }
+  .password-row {
+    padding: 20px auto;
+  }
+  .password-row label {
+    font-size: 1rem;
+    margin-top: 15px;
+  }
+  .password-row input {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    border-radius: 50px;
+    border: 1px solid #190114;
+  }
+  .accept-row {
+    font-size: 0.9rem;
+    text-align: left;
+  }
+
+  .register-btn {
+    font-size: 0.9rem;
+    padding: 10px;
+    margin: 10px auto 15px;
+  }
+  .register-btn:hover {
+    background-color: #de08b3;
+    color: #fff;
+  }
+  .submit-row p {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .register-logo {
+    width: 80px;
+    height: auto;
+  }
+  .register-right {
+    display: inline;
+  }
+  .submit-row {
+    padding: 10px 0 10px;
+  }
+  .submit-row p {
+    font-size: 1rem;
+  }
+
+  .bottom-waves {
+    position: absolute;
+    bottom: 0;
+  }
+  .register-left {
+    position: relative;
+  }
+  .register-header h3 {
+    margin: 25px 0;
+    font-size: 1.4rem;
+    text-align: left;
+  }
+
+  .form-container input {
+    margin: 10px 0;
+  }
+  label {
+    padding: 0;
+  }
+  .email-row label {
+    font-size: 1.1rem;
+    padding: 0;
+  }
+  .email-row input.email {
+    padding: 15px 20px;
+    font-size: 1rem;
+  }
+  .password-row {
+    padding: 20px auto;
+  }
+  .password-row label {
+    font-size: 1.1rem;
+    margin-top: 25px;
+  }
+  .password-row input {
+    padding: 15px 20px;
+    font-size: 1rem;
+  }
+  .accept-row {
+    font-size: 1rem;
+  }
+
+  .register-btn {
+    font-size: 1rem;
+    padding: 15px;
+    margin: 30px auto 30px;
+  }
+  .register-btn:hover {
+    background-color: #de08b3;
+    color: #fff;
+  }
+  .submit-row p {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .register-logo {
+    width: 100px;
+    height: auto;
+  }
+  .register-right {
+    display: inline;
+  }
+  .submit-row {
+    padding: 40px 0 10px;
+  }
+  .submit-row p {
+    font-size: 1.2rem;
+  }
+
+  .bottom-waves {
+    position: absolute;
+    bottom: 0;
+  }
+  .register-left {
+    position: relative;
+  }
+  .register-header h3 {
+    margin: 35px 0;
+    font-size: 1.9rem;
+    text-align: left;
+  }
+
+  .form-container input {
+    margin: 15px 0;
+  }
+  label {
+    padding: 0;
+  }
+  .email-row label {
+    font-size: 1.3rem;
+    padding: 0;
+  }
+  .email-row input.email {
+    padding: 20px 20px;
+    font-size: 1.2rem;
+  }
+  .password-row {
+    padding: 25px auto;
+  }
+  .password-row label {
+    font-size: 1.2rem;
+    margin-top: 35px;
+  }
+  .password-row input {
+    padding: 20px 20px;
+    font-size: 1.2rem;
+  }
+  .accept-row {
+    font-size: 1.2rem;
+  }
+
+  .register-btn {
+    font-size: 1.2rem;
+    padding: 20px;
+    margin: 30px auto 40px;
+  }
+  .register-btn:hover {
+    background-color: #de08b3;
+    color: #fff;
+  }
+  .submit-row p {
+    font-size: 1.2rem;
+  }
+  .register-right img {
+  }
+}

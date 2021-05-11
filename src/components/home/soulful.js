@@ -34,7 +34,9 @@ const Soulful = () => {
             </div>
 
             <div className="soulful-btn">
-              <button className="btn donate-btn">CHECK MY SOUL HEALTH</button>
+              <button className="btn shadow-none donate-btn">
+                CHECK MY SOUL HEALTH
+              </button>
             </div>
           </div>
         </div>
