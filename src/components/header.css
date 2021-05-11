@@ -1,0 +1,98 @@
+/* NAV */
+nav {
+  /* font-family: "Circular Book", sans-serif; */
+  font-family: "Circular Medium", sans-serif;
+  /* font-family: 'Circular Bold', sans-serif; */
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+a.navbar-brand {
+  width: 14%;
+  max-width: 14%;
+}
+.donate-btn {
+  background: #de08b3;
+  color: #fff;
+  border-radius: 50px;
+  border: 0px solid #de08b3;
+  padding: 8px 20px;
+  font-weight: 300;
+  font-size: 0.8rem;
+  width: 100%;
+  margin: auto auto 30px;
+}
+.btn.donate-btn:hover {
+  /* background: #fff;
+  color: #de08b3; */
+  background: #ce01a5;
+  color: #fff;
+  border: 0;
+  /* box-shadow: (3px 5px 16px 5px (rgb(126, 125, 125))) */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+button.navbar-toggler {
+  border: 0;
+}
+span.navbar-toggler-icon:focus {
+  outline: 0;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+.dropdown-menu {
+  border: 0;
+  font-size: 0.8rem;
+}
+.dropdown-item {
+  font-family: "Circular Book", sans-serif;
+  padding: 15px;
+}
+
+@media only screen and (min-width: 728px) {
+  nav {
+    font-size: 1rem;
+  }
+  a.navbar-brand {
+    width: 9%;
+    max-width: 9%;
+  }
+  .donate-btn {
+    background: #de08b3;
+    color: #fff;
+    border-radius: 50px;
+    border: 0px solid #de08b3;
+    padding: 10px 30px;
+    margin: auto;
+    font-weight: 350;
+    font-size: 0.9rem;
+  }
+  a.nav-link {
+    margin: 5px 20px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  nav {
+    font-size: 1.1rem;
+  }
+  .donate-btn {
+    padding: 12px 38px;
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  nav {
+    font-size: 1.2rem;
+  }
+  .dropdown-menu {
+    font-size: 1.1rem;
+  }
+  .donate-btn {
+    padding: 15px 45px;
+    font-weight: 400;
+    font-size: 1.3rem;
+  }
+}

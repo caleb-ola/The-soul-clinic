@@ -1,0 +1,141 @@
+section#soulful {
+  margin: 0;
+}
+#soulful {
+  background: #ecf5fc80;
+  padding: 30px;
+  text-align: center;
+}
+.soulful-text h3 {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #190114;
+}
+.soulful-para {
+  font-size: 0.8rem;
+  color: #190114a6;
+  margin: 20px auto 30px;
+}
+.soulful-para p {
+  width: 100%;
+  margin: 10px auto;
+}
+.soulful-btn {
+  margin: 10px auto;
+}
+.soulful-video {
+  width: 100%;
+  margin: 30px auto;
+}
+.soulful-video video {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  #soulful-video {
+    padding: 0 20px;
+  }
+  .soulful-video video {
+    height: 320px;
+  }
+  #soulful {
+    text-align: left;
+    margin: 0 auto 30px;
+  }
+  .soulful-text {
+    width: 50%;
+    margin: 40px auto;
+    padding-left: 10px;
+  }
+  .soulful-text h3 {
+    font-size: 1.4rem;
+  }
+  .soulful-para {
+    font-size: 0.9rem;
+    margin: 10px auto;
+  }
+  .soulful-btn {
+    width: 70%;
+    margin: 10px 0;
+  }
+  .soulful-btn button {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .soulful-video video {
+    height: 300px;
+  }
+  .soulful-btn {
+    width: 55%;
+  }
+  .soulful-text {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  #soulful-video {
+    padding: 0 20px;
+  }
+  .soulful-video video {
+    height: 320px;
+    border-radius: 10px;
+  }
+  #soulful {
+    text-align: left;
+    margin: 0 auto 30px;
+  }
+  .soulful-text {
+    margin: 50px auto;
+    padding-left: 30px;
+  }
+  .soulful-text h3 {
+    font-size: 1.5rem;
+  }
+  .soulful-para {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  .soulful-btn {
+    width: 50%;
+    margin: 10px 0;
+  }
+  .soulful-btn button {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  #soulful-video {
+    padding: 0 20px;
+  }
+  .soulful-video video {
+    height: 360px;
+  }
+  #soulful {
+    text-align: left;
+    margin: 0 auto 30px;
+  }
+  .soulful-text {
+    margin: 50px auto;
+    padding-left: 10px;
+  }
+  .soulful-text h3 {
+    font-size: 2rem;
+  }
+  .soulful-text p {
+    font-size: 1.2rem;
+    margin: 15px auto;
+  }
+  .soulful-btn {
+    width: 55%;
+    margin: 10px 0;
+  }
+  .soulful-btn button {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}

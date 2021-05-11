@@ -1,0 +1,94 @@
+#register {
+  max-width: 100%;
+  font-family: "Circular Book", sans-serif;
+  /* font-family: "Circular Medium", sans-serif; */
+  /* font-family: 'Circular Bold', sans-serif; */
+}
+.register-right {
+  padding: 0;
+}
+.register-left {
+  padding: 0;
+}
+.container-row {
+  margin: 0;
+}
+.logo-container {
+  margin: 20px auto;
+  padding: 0;
+}
+.wave-container {
+  padding: 0;
+}
+.register-logo {
+  width: 60px;
+  height: auto;
+}
+.register-header {
+  width: 100%;
+  margin: 20px 0;
+  font-family: "Circular Medium", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #190114;
+  text-align: center;
+}
+.form-container {
+  /* text-align: center; */
+  /* margin: auto; */
+}
+.form-container input {
+  margin: 5px;
+}
+.email-row {
+}
+.email-row input {
+  padding: 5px;
+}
+.password-row {
+  padding: 0;
+}
+.password-row input {
+  /* width: 100%; */
+  padding: 5px;
+}
+#register i {
+  margin-left: -30px;
+  color: #1901147e;
+}
+.down-wave {
+  transform: rotate(180deg);
+}
+.down-wave-container {
+  padding: 0;
+}
+.bottom-waves {
+  margin: 0 0 0 0;
+}
+.top-wave {
+  /* position: absolute; */
+  width: 100%;
+  height: auto;
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .top-wave {
+    /* position: absolute; */
+    width: 100%;
+    height: auto;
+    display: inline;
+  }
+  .register-header {
+    width: 60%;
+    margin: 40px 0;
+    font-family: "Circular Medium", sans-serif;
+    font-weight: 600;
+    color: #190114;
+  }
+}
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 1440px) {
+}
+@media only screen and (min-width: 1920px) {
+}

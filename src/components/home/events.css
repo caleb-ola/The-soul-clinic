@@ -1,0 +1,43 @@
+#events {
+  padding: 20px;
+  background: #e5e5e5;
+}
+.coll {
+  width: 80%;
+  margin: 20px auto;
+}
+#events .card {
+  max-width: 540px;
+  height: auto;
+}
+#events img {
+  width: 400px;
+  height: auto;
+}
+.event-card {
+  margin: 15px;
+}
+.rowl {
+  width: 95%;
+  margin: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  #events img {
+    /* width: 400px; */
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .coll {
+    width: 60%;
+    margin: 20px 0;
+  }
+  .event-card {
+    margin: 20px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+}
+@media only screen and (min-width: 1920px) {
+}
