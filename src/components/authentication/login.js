@@ -10,9 +10,9 @@ const Login = () => {
   const togglePassword = () => {
     setShowPass(showPass ? false : true);
   };
-  const toggleConfirmPassword = () => {
-    setShowConfPass(showConfPass ? false : true);
-  };
+  // const toggleConfirmPassword = () => {
+  //   setShowConfPass(showConfPass ? false : true);
+  // };
   return (
     <div>
       <section id="register">
@@ -101,7 +101,7 @@ const Login = () => {
           </div>
           <div className=" col-xl-6 col-lg-6 col-md-12 col-sm-12 register-right">
             <img
-              src="images/register-image.jpg"
+              src="images/authentication/login-image.png"
               alt="register image"
               className="img-fluid"
             />

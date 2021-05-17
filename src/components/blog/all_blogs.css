@@ -1,0 +1,96 @@
+#all-blogs {
+  margin: 40px 20px;
+  text-decoration: none;
+}
+#plans {
+  background: #f5fafd;
+  padding: 20px;
+}
+.card {
+  border: 0;
+}
+.card-row {
+  margin: 40px auto 40px;
+}
+.card-col {
+  padding: 25px;
+}
+
+.card-body {
+  padding: 10px;
+}
+.card .card-body .card-title {
+  font-size: 0.9rem;
+  color: #190114;
+}
+.card .card-body p {
+  font-size: 0.7rem;
+  margin: 10px 0;
+  color: #190114a6;
+}
+.card .card-body a {
+  font-size: 0.8rem;
+  background: #fff;
+  color: #de08b3;
+  border: 0;
+  padding: 0;
+}
+.card .card-body a:hover {
+  color: #ce01a5;
+}
+
+@media only screen and (min-width: 425px) {
+}
+@media only screen and (min-width: 768px) {
+  .card .card-body .card-title {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .card-body {
+    padding: 15px;
+  }
+  .card .card-body .card-title {
+    font-size: 1rem;
+  }
+  .card .card-body p {
+    font-size: 0.7rem;
+  }
+  .card .card-body a {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .icons {
+    margin: 40px 0 40px 0;
+  }
+  .card-body {
+    padding: 20px;
+  }
+  .card .card-body .card-title {
+    font-size: 1.1rem;
+  }
+  .card .card-body p {
+    font-size: 0.8rem;
+  }
+  .card .card-body a {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .icons {
+    margin: 45px 0 45px 0;
+  }
+  .card-body {
+    padding: 25px;
+  }
+  .card .card-body .card-title {
+    font-size: 1.3rem;
+  }
+  .card .card-body p {
+    font-size: 0.9rem;
+  }
+  .card .card-body a {
+    font-size: 1rem;
+  }
+}

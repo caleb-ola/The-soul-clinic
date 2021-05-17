@@ -118,7 +118,7 @@ label {
   color: #fff;
   border-radius: 50px;
   font-size: 0.8rem;
-  margin: 10px auto 5px;
+  margin: 25px auto 25px;
 }
 .register-btn:hover {
   background-color: #de08b3;
@@ -175,7 +175,7 @@ img.img-fluid.down-wave2 {
     display: inline;
   }
   .submit-row {
-    padding: 5px 0 10px;
+    padding: 10px 0 20px;
   }
   .submit-row p {
     font-size: 0.8rem;
@@ -252,7 +252,7 @@ img.img-fluid.down-wave2 {
     display: inline;
   }
   .submit-row {
-    padding: 10px 0 10px;
+    padding: 15px 0 15px;
   }
   .submit-row p {
     font-size: 1rem;
@@ -322,7 +322,7 @@ img.img-fluid.down-wave2 {
     display: inline;
   }
   .submit-row {
-    padding: 40px 0 10px;
+    padding: 40px 0 20px;
   }
   .submit-row p {
     font-size: 1.2rem;

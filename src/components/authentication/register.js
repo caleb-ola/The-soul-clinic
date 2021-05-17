@@ -137,7 +137,7 @@ const Register = () => {
           </div>
           <div className=" col-xl-6 col-lg-6 col-md-12 col-sm-12 register-right">
             <img
-              src="images/register-image.jpg"
+              src="images/authentication/register-image.png"
               alt="register image"
               className="img-fluid"
             />

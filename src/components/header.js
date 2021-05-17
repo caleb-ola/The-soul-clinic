@@ -7,9 +7,9 @@ const Header = () => {
     <header>
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             <img
-              src="images/logo.png"
+              src="/images/logo.png"
               alt="The Soul Clinic's logo"
               className="img-fluid"
             />
@@ -99,7 +99,7 @@ const Header = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/blog">
                   Blog
                 </a>
               </li>

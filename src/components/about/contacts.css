@@ -1,0 +1,57 @@
+#contacts {
+  padding: 60px 20px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.contact {
+  margin: 10px auto;
+}
+.contact h3 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.contact p {
+  font-size: 0.8rem;
+  color: #de08b3;
+}
+@media only screen and (min-width: 768px) {
+  .contact h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  .contact p {
+    font-size: 0.8rem;
+    color: #de08b3;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .contact h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .contact p {
+    font-size: 0.9rem;
+    color: #de08b3;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .contact h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  .contact p {
+    font-size: 1rem;
+    color: #de08b3;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .contact h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  .contact p {
+    font-size: 1.1rem;
+    color: #de08b3;
+  }
+}

@@ -8,15 +8,17 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-xl-2 col-lg-2 col-md-12 col-sm-12">
-            <img
-              src="images/white-logo.png"
-              alt="Footer logo"
-              className="img-fluid"
-            />
+            <a href="/">
+              <img
+                src="/images/white-logo.png"
+                alt="Footer logo"
+                className="img-fluid"
+              />
+            </a>
           </div>
           <div className="col-xl-10 col-lg-10 col-md-12 col-sm-12 footer-right">
             <div className="row">
-              <div className="col-xl-2 col-lg-2 col-md-6 col-sm-12 ">
+              <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 ">
                 <p className="footer-heads">RESOURCES</p>
                 <p>
                   <a href="#">Videos</a>
@@ -34,13 +36,13 @@ const Footer = () => {
               <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 ">
                 <p className="footer-heads">THE SOUL CLINIC</p>
                 <p>
-                  <a href="#">About</a>
+                  <a href="/about">About</a>
                 </p>
                 <p>
-                  <a href="#">Blog</a>
+                  <a href="/blog">Blog</a>
                 </p>
               </div>
-              <div className="col-xl-2 col-lg-2 col-md-6 col-sm-12 ">
+              <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 ">
                 <p className="footer-heads">SUPPORT</p>
                 <p>
                   <a href="#">Quick Scan</a>
@@ -59,10 +61,10 @@ const Footer = () => {
               </div>
             </div>
             <div className="row bottom-section">
-              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 ">
+              <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 ">
                 <p>Copyright 2021, Qeola Inc. Alrights reserved.</p>
               </div>
-              <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 ">
+              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 ">
                 <p>Data &amp; Privacy Policy.</p>
               </div>
               <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 ">

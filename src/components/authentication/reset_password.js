@@ -88,7 +88,7 @@ const Reset = () => {
           </div>
           <div className=" col-xl-6 col-lg-6 col-md-12 col-sm-12 register-right">
             <img
-              src="images/register-image.jpg"
+              src="images/authentication/reset-password-image.png"
               alt="register image"
               className="img-fluid"
             />

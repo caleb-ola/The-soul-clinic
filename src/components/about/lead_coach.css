@@ -1,8 +1,11 @@
-#why {
-  background: #fff7fdfc;
+#lead-coach {
+  padding: 40px 20px;
+}
+#lead-coach {
+  background: #fff;
   padding: 20px;
 }
-#why img {
+#lead-coach img {
   width: 200px;
   height: auto;
 }
@@ -11,8 +14,10 @@
   padding: 0 0 0 0;
   margin-bottom: 0;
 }
-#why h3 {
+#lead-coach h3 {
   text-align: center;
+  margin: 20px 0;
+  width: 100%;
 }
 .soulful-vid {
   width: 100%;
@@ -39,10 +44,10 @@
   .learn-btn {
     text-align: left;
   }
-  #why h3 {
+  #lead-coach h3 {
     text-align: center;
   }
-  #why img {
+  #lead-coach img {
     width: 300px;
     height: auto;
   }
@@ -60,11 +65,11 @@
   }
 }
 @media only screen and (min-width: 1024px) {
-  #why img {
+  #lead-coach img {
     width: 400px;
     height: auto;
   }
-  #why h3 {
+  #lead-coach h3 {
     text-align: left;
   }
   .soulful-vid {
@@ -85,7 +90,7 @@
   }
 }
 @media only screen and (min-width: 1440px) {
-  #why img {
+  #lead-coach img {
     width: 500px;
     height: auto;
   }

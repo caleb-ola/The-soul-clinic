@@ -1,0 +1,149 @@
+.detail-hero-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 50%;
+  transform: translateY(-70%);
+  text-align: left;
+  line-height: 20px;
+  width: 80%;
+  margin: 0 auto 5px;
+  padding: 0 0 0 0;
+}
+.detail-hero-overlay h1 {
+  font-size: 1.3rem;
+  /* margin: 20px 0 0; */
+  font-weight: 500;
+  line-height: 30px;
+  margin: 10px auto;
+}
+.detail-hero-overlay p {
+  font-size: 0.8rem;
+  font-weight: 350;
+  width: 90%;
+  margin: 10px 0;
+}
+.hero-button {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 80%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.author-image-container {
+  font-size: 1.3rem;
+  /* margin: 20px 0 0; */
+  font-weight: 500;
+  line-height: 10px;
+  width: 80%;
+  margin: 10px auto;
+}
+.author-image-container .author-details-container p {
+  margin-left: 0;
+}
+.hero-btn {
+  background: #fff;
+  color: #de08b3;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.hero-btn:hover {
+  background: #de08b3;
+  color: #fff;
+}
+.detail-hero-overlay {
+  color: #fff;
+}
+
+@media only screen and (min-width: 728px) {
+  .hero-btn {
+    background: #fff;
+    color: #de08b3;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .hero-btn:hover {
+    background: #f0efef;
+    color: #de08b3;
+  }
+  .detail-hero-overlay {
+    line-height: 20px;
+    width: 80%;
+    margin: 40px auto 0;
+    padding: 0 0 0 0;
+  }
+  .detail-hero-overlay h1 {
+    font-size: 1.7rem;
+    width: 80%;
+    line-height: 25px;
+    margin: 0 auto 12px;
+  }
+  .detail-hero-overlay p {
+    font-size: 0.9rem;
+    width: 80%;
+    margin: 10px auto;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .hero-btn {
+    padding: 12px 35px;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  .detail-hero-overlay {
+    width: 80%;
+  }
+  .detail-hero-overlay h1 {
+    font-size: 2rem;
+    width: 80%;
+    line-height: 35px;
+  }
+  .detail-hero-overlay p {
+    font-size: 1.1rem;
+    width: 80%;
+  }
+  .author-image-container {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 20px;
+    width: 80%;
+    margin: 10px auto;
+  }
+  .author-image-container .author-details-container p {
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .detail-hero-overlay h1 {
+    font-size: 2.4rem;
+    line-height: 45px;
+    width: 50%;
+    margin: 0 auto 15px;
+  }
+  .detail-hero-overlay p {
+    width: 50%;
+    margin: 15px auto;
+    font-size: 1.2rem;
+    line-height: 10px;
+    font-weight: 300;
+  }
+  .hero-btn {
+    padding: 15px 40px;
+    font-size: 1.3rem;
+  }
+  .author-image-container {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 20px;
+    width: 50%;
+  }
+}

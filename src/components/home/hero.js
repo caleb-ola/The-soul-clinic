@@ -1,23 +1,9 @@
 import React from "react";
 // JSX
-import HeroSlider, {
-  Slide,
-  ButtonsNav,
-  Nav,
-  OverlayContainer,
-} from "hero-slider";
-// import Wrapper from "../UI/Wrapper/Wrapper";
-// import Title from "../UI/Title/Title";
-// import Subtitle from "../UI/Subtitle/Subtitle";
+import HeroSlider, { Slide, Nav, OverlayContainer } from "hero-slider";
 
 // CSS
 import "./hero.css";
-
-// Images
-const hallstatt = "https://i.imgur.com/Yszno5e.jpg";
-const hvitserkur = "https://i.imgur.com/ZBzbir7.jpg";
-const jacksonville = "https://i.imgur.com/xpeJkkR.jpg";
-const moraineLake = "https://i.imgur.com/0NAc45h.jpg";
 
 const app = () => {
   return (
@@ -41,14 +27,12 @@ const app = () => {
         height: "550px",
       }}
     >
-      <OverlayContainer></OverlayContainer>
-
       <Slide
         className="slide "
-        // navDescription="Hallstatt - Austria"
         background={{
           backgroundImage: "images/hero11.jpg",
           backgroundSize: "cover",
+          backgroundPosition: "center center",
           backgroundAnimation: "zoom",
         }}
       >
@@ -70,6 +54,8 @@ const app = () => {
         className="slide"
         background={{
           backgroundImage: "images/hero22.jpg",
+          backgroundSize: "cover",
+          backgroundPosition: "center center",
           backgroundAnimation: "zoom",
         }}
       >

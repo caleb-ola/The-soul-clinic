@@ -1,0 +1,119 @@
+.hero-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  line-height: 20px;
+  width: 80%;
+  margin: 20px auto 5px;
+  padding: 20px 0 0 0;
+}
+.hero-overlay h1 {
+  font-size: 1.3rem;
+  margin: 0 auto 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.hero-overlay p {
+  font-size: 0.8rem;
+  font-weight: 350;
+  width: 90%;
+  margin: auto;
+}
+.hero-button {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 80%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.hero-btn {
+  background: #fff;
+  color: #de08b3;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.hero-btn:hover {
+  background: #de08b3;
+  color: #fff;
+}
+.hero-overlay {
+  color: #fff;
+}
+
+@media only screen and (min-width: 728px) {
+  .hero-btn {
+    background: #fff;
+    color: #de08b3;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .hero-btn:hover {
+    background: #f0efef;
+    color: #de08b3;
+  }
+  .hero-overlay {
+    line-height: 20px;
+    width: 80%;
+    margin: 40px auto 0;
+    padding: 40px 0 0 0;
+  }
+  .hero-overlay h1 {
+    font-size: 1.7rem;
+    width: 80%;
+    line-height: 35px;
+    margin: -15px auto 12px;
+  }
+  .hero-overlay p {
+    font-size: 0.9rem;
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .hero-btn {
+    padding: 12px 35px;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  .hero-overlay {
+    width: 65%;
+  }
+  .hero-overlay h1 {
+    font-size: 2rem;
+    width: 80%;
+  }
+  .hero-overlay p {
+    font-size: 1.1rem;
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .hero-overlay h1 {
+    font-size: 2.4rem;
+    line-height: 45px;
+    width: 70%;
+    margin: 0 auto 15px;
+  }
+  .hero-overlay p {
+    width: 65%;
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 25px;
+    font-weight: 300;
+  }
+  .hero-btn {
+    padding: 15px 40px;
+    font-size: 1.3rem;
+  }
+}

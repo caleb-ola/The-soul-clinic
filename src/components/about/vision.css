@@ -1,18 +1,19 @@
-#why {
-  background: #fff7fdfc;
-  padding: 20px;
+#vision {
+  background: #ecf5fc80;
+  padding: 40px 20px;
 }
-#why img {
+#vision img {
   width: 200px;
   height: auto;
+}
+#vision h3 {
+  text-align: center;
+  margin: 25px 0;
 }
 .soulful-para p {
   text-align: center;
   padding: 0 0 0 0;
   margin-bottom: 0;
-}
-#why h3 {
-  text-align: center;
 }
 .soulful-vid {
   width: 100%;
@@ -39,10 +40,7 @@
   .learn-btn {
     text-align: left;
   }
-  #why h3 {
-    text-align: center;
-  }
-  #why img {
+  #vision img {
     width: 300px;
     height: auto;
   }
@@ -60,11 +58,11 @@
   }
 }
 @media only screen and (min-width: 1024px) {
-  #why img {
+  #vision img {
     width: 400px;
     height: auto;
   }
-  #why h3 {
+  #vision h3 {
     text-align: left;
   }
   .soulful-vid {
@@ -85,7 +83,7 @@
   }
 }
 @media only screen and (min-width: 1440px) {
-  #why img {
+  #vision img {
     width: 500px;
     height: auto;
   }
