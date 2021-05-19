@@ -35,7 +35,7 @@ const BlogDetails = () => {
         }
         imageTwo={"/images/blog/blog-details2.jpg"}
       />
-      <NextPrev />
+      {/* <NextPrev /> */}
       <Footer />
     </div>
   );
