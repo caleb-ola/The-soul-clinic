@@ -24,7 +24,7 @@ const Heroes = (props) => {
         shouldAutoplay: false,
         shouldDisplayButtons: false,
         autoplayDuration: 5000,
-        height: "350px",
+        height: "400px",
       }}
     >
       <Slide
@@ -36,7 +36,7 @@ const Heroes = (props) => {
           backgroundAnimation: "zoom",
         }}
       >
-        <div className="hero-overlay">
+        <div className="hero-over">
           <h1> {props.title}</h1>
           <p>{props.text}</p>
         </div>

@@ -5,7 +5,7 @@ import Footer from "../footer";
 import Heroes from "../reusable-components/heroes";
 import "./blog.css";
 import AllBlogs from "./all_blogs";
-import Pagination from "./pagination";
+import Pagination from "../reusable-components/pagination";
 
 const Blog = () => {
   return (

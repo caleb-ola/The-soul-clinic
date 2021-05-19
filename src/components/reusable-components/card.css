@@ -1,0 +1,28 @@
+.card {
+  box-shadow: 2px 4px 19px 1px #f0f0f0;
+  margin: 40px 20px;
+}
+.card div.listen a {
+  color: #190114a6;
+  font-size: 0.9rem;
+}
+.card div.listen a:hover {
+  color: #de08b3;
+}
+.card .category p.cat {
+  color: #de08b3;
+  font-size: 0.9rem;
+  margin: 0;
+}
+@media only screen and (min-width: 1024px) {
+  .card div.listen a {
+    color: #190114a6;
+    font-size: 1.1rem;
+  }
+  .card .category p.cat {
+    color: #de08b3;
+    font-size: 1.1rem;
+    margin: 0 0;
+    /* padding: 10px 0 0; */
+  }
+}

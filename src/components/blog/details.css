@@ -1,0 +1,50 @@
+#details {
+  padding: 40px 20px;
+  max-width: 100%;
+}
+.left-detail {
+  padding: 10px;
+}
+.left-detail p {
+  margin: 20px 0 25px;
+  text-align: justify;
+}
+.left-detail h4 {
+  margin: 25px 0 20px;
+}
+.right-detail {
+  padding: 10px;
+  text-align: end;
+}
+@media only screen and (min-width: 768px) {
+  .left-detail {
+    padding: 30px;
+  }
+  .right-detail {
+    padding: 30px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .left-detail {
+    padding: 30px;
+  }
+  .right-detail {
+    padding: 30px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .left-detail {
+    padding: 30px;
+  }
+  .right-detail {
+    padding: 40px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .left-detail {
+    padding: 50px 30px;
+  }
+  .right-detail {
+    padding: 50px 60px;
+  }
+}

@@ -40,13 +40,13 @@
   /* margin: 20px 0 0; */
   font-weight: 500;
   line-height: 10px;
-  width: 80%;
+  width: 100%;
   margin: 10px auto;
 }
 .author-image-container .author-details-container p {
   margin-left: 0;
 }
-.hero-btn {
+/* .hero-btn {
   background: #fff;
   color: #de08b3;
   padding: 8px 20px;
@@ -57,11 +57,89 @@
 .hero-btn:hover {
   background: #de08b3;
   color: #fff;
-}
+} */
 .detail-hero-overlay {
   color: #fff;
 }
+.detail-hero-overlay ul.social {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: left;
+}
 
+.detail-hero-overlay ul.social > li {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  color: #f04360;
+}
+.detail-hero-overlay ul.social > li > a.list-insta {
+  background-color: #f04360;
+}
+.detail-hero-overlay ul.social > li > a.list-twitter {
+  background-color: #5edeef;
+}
+.detail-hero-overlay ul.social > li > a.list-fb {
+  background-color: #4d9ee0;
+}
+.detail-hero-overlay ul.social > li > a.list-insta:hover {
+  background-color: #fff;
+}
+.detail-hero-overlay ul.social > li > a.list-twitter:hover {
+  background-color: #fff;
+}
+.detail-hero-overlay ul.social > li > a.list-fb:hover {
+  background-color: #fff;
+}
+.detail-hero-overlay ul.social > li > a .fa-instagram {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 35px;
+  width: 35px;
+  height: 35px;
+  border-radius: 36px;
+  background-color: #f04360;
+  color: #fff;
+  margin: 0px 0;
+}
+.detail-hero-overlay ul.social > li > a .fa-twitter {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 35px;
+  width: 35px;
+  height: 35px;
+  border-radius: 36px;
+  margin: 0px 15px 15px 0;
+  background-color: #5edeef;
+  color: #fff;
+}
+.detail-hero-overlay ul.social > li > a .fa-facebook-f {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 35px;
+  width: 35px;
+  height: 35px;
+  border-radius: 36px;
+  margin: 0px 15px 15px 0;
+  background-color: #4d9ee0;
+  color: #fff;
+}
+.detail-hero-overlay ul.social > li > a .fa-facebook-f:hover {
+  background-color: #fff;
+  color: #4d9ee0;
+}
+.detail-hero-overlay ul.social > li > a .fa-twitter:hover {
+  background-color: #fff;
+  color: #5edeef;
+}
+
+.detail-hero-overlay ul.social > li > a .fa-instagram:hover {
+  text-decoration: none;
+  /* background-color: #ee7c22; */
+  background-color: #fff;
+  color: #f04360;
+}
 @media only screen and (min-width: 728px) {
   .hero-btn {
     background: #fff;
@@ -92,6 +170,91 @@
     width: 80%;
     margin: 10px auto;
   }
+  .author-image-container {
+    font-size: 1.3rem;
+    /* margin: 20px 0 0; */
+    font-weight: 500;
+    line-height: 10px;
+    width: 80%;
+    margin: 10px auto;
+  }
+  .author-details-container {
+    padding-top: 15px;
+  }
+  .detail-hero-overlay ul.social {
+    margin: 10px 0;
+    padding: 15px 0;
+    width: 100%;
+    text-align: left;
+  }
+
+  .detail-hero-overlay ul.social > li {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+  }
+  /* 
+  .detail-hero-overlay ul.social > li:hover {
+    display: inline-block;
+    color: #de08b3;
+  } */
+
+  .detail-hero-overlay ul.social > li > a .fa-instagram {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    border-radius: 36px;
+    background-color: #f04360;
+    color: #fff;
+    margin: 0px 15px 15px 0;
+  }
+  .detail-hero-overlay ul.social > li > a .fa-twitter {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    border-radius: 36px;
+    margin: 0px 15px 15px 0;
+    background-color: #5edeef;
+    color: #fff;
+  }
+  .detail-hero-overlay ul.social > li > a .fa-facebook-f {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    border-radius: 36px;
+    margin: 0px 15px 15px 0;
+    background-color: #4d9ee0;
+    color: #fff;
+  }
+  .detail-hero-overlay ul.social > li > a .fa-facebook-f:hover {
+    background-color: #fff;
+    color: #4d9ee0;
+  }
+  .detail-hero-overlay ul.social > li > a .fa-twitter:hover {
+    background-color: #fff;
+    color: #5edeef;
+  }
+
+  .detail-hero-overlay ul.social > li > a .fa-instagram:hover {
+    text-decoration: none;
+    /* background-color: #ee7c22; */
+    background-color: #fff;
+    color: #f04360;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .detail-hero-overlay ul.social {
+    margin: 0;
+    padding: 25px 0;
+    width: 100%;
+    text-align: left;
+  }
 }
 @media only screen and (min-width: 1440px) {
   .hero-btn {
@@ -114,24 +277,92 @@
   .author-image-container {
     font-size: 1.3rem;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 15px;
     width: 80%;
     margin: 10px auto;
   }
   .author-image-container .author-details-container p {
     margin-left: 0;
   }
+  .author-details-container {
+  }
+  .detail-hero-overlay ul.social {
+    margin: 0;
+    padding: 20px 0;
+    width: 100%;
+    text-align: left;
+  }
+
+  .detail-hero-overlay ul.social > li {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+  }
+
+  /* .detail-hero-overlay ul.social > li:hover {
+    display: inline-block;
+    color: #de08b3;
+  } */
+
+  .detail-hero-overlay ul.social > li > a .fa-instagram {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    border-radius: 36px;
+    background-color: #f04360;
+    color: #fff;
+    margin: 0px 0;
+  }
+  .detail-hero-overlay ul.social > li > a .fa-twitter {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    border-radius: 36px;
+    margin: 0px 0;
+    background-color: #5edeef;
+    color: #fff;
+  }
+  .detail-hero-overlay ul.social > li > a .fa-facebook-f {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    border-radius: 36px;
+    margin: 0px 0;
+    background-color: #4d9ee0;
+    color: #fff;
+  }
+  .detail-hero-overlay ul.social > li > a .fa-facebook-f:hover {
+    background-color: #fff;
+    color: #4d9ee0;
+  }
+  .detail-hero-overlay ul.social > li > a .fa-twitter:hover {
+    background-color: #fff;
+    color: #5edeef;
+  }
+
+  .detail-hero-overlay ul.social > li > a .fa-instagram:hover {
+    text-decoration: none;
+    /* background-color: #ee7c22; */
+    background-color: #fff;
+    color: #f04360;
+  }
 }
 @media only screen and (min-width: 1920px) {
   .detail-hero-overlay h1 {
     font-size: 2.4rem;
-    line-height: 45px;
+    line-height: 40px;
     width: 50%;
     margin: 0 auto 15px;
   }
   .detail-hero-overlay p {
     width: 50%;
-    margin: 15px auto;
+    margin: 5px auto 15px;
     font-size: 1.2rem;
     line-height: 10px;
     font-weight: 300;
@@ -145,5 +376,73 @@
     font-weight: 500;
     line-height: 20px;
     width: 50%;
+    margin: 20px auto;
+  }
+  .detail-hero-overlay ul.social {
+    margin: 0;
+    padding: 20px 0;
+    width: 100%;
+    text-align: left;
+  }
+
+  .detail-hero-overlay ul.social > li {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+  }
+
+  .detail-hero-overlay ul.social > li:hover {
+    display: inline-block;
+    /* color: #de08b3; */
+    text-align: center;
+  }
+
+  .detail-hero-overlay ul.social > li > a .fa-instagram {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    border-radius: 36px;
+    background-color: #f04360;
+    color: #fff;
+    margin: 0px 0;
+  }
+  .detail-hero-overlay ul.social > li > a .fa-twitter {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    border-radius: 36px;
+    margin: 0 0;
+    background-color: #5edeef;
+    color: #fff;
+  }
+  .detail-hero-overlay ul.social > li > a .fa-facebook-f {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    border-radius: 36px;
+    margin: 0 0;
+    background-color: #4d9ee0;
+    color: #fff;
+  }
+  .detail-hero-overlay ul.social > li > a .fa-facebook-f:hover {
+    background-color: #fff;
+    color: #4d9ee0;
+  }
+  .detail-hero-overlay ul.social > li > a .fa-twitter:hover {
+    background-color: #fff;
+    color: #5edeef;
+  }
+
+  .detail-hero-overlay ul.social > li > a .fa-instagram:hover {
+    text-decoration: none;
+    /* background-color: #ee7c22; */
+    background-color: #fff;
+    color: #f04360;
   }
 }

@@ -56,7 +56,7 @@ const Header = () => {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/coaches">
                   Coaches
                 </a>
               </li>
@@ -75,24 +75,24 @@ const Header = () => {
 
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/events">
                       Events
                     </a>
                   </li>
 
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/podcasts">
                       Podcasts
                     </a>
                   </li>
 
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/videos">
                       Videos
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/ebooks">
                       Ebooks
                     </a>
                   </li>

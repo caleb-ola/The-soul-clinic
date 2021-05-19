@@ -24,7 +24,7 @@ const DetailHero = (props) => {
         shouldAutoplay: false,
         shouldDisplayButtons: false,
         autoplayDuration: 5000,
-        height: "350px",
+        height: "400px",
       }}
     >
       <Slide
@@ -51,7 +51,25 @@ const DetailHero = (props) => {
               <div className="col-lg-10 col-md-10 col-sm-12 author-details-container">
                 <p>{props.author}</p>
                 <p>{props.date}</p>
-                <div></div>
+                <div className="hero-socials">
+                  <ul className="social">
+                    <li>
+                      <a className="list-insta">
+                        <i class="fab fa-instagram rnd"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a className="list-twitter">
+                        <i class="fab fa-twitter rnd"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a className="list-fb">
+                        <i class="fab fa-facebook-f rnd"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

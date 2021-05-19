@@ -1,0 +1,143 @@
+#feedback {
+  padding: 40px 20px;
+  background: #ecf5fc80;
+}
+#feedback div.contain {
+  width: 100%;
+  margin: 40px auto;
+}
+#feedback div.colla {
+  padding: 0;
+}
+#feedback div.collb {
+  padding: 0;
+}
+#feedback div.colla input {
+  width: 100%;
+}
+#feedback div.collb input {
+  width: 100%;
+}
+#feedback input,
+textarea {
+  background: #ecf5fc80;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+}
+#feedback input:focus {
+  outline-width: 0;
+}
+#feedback label {
+  margin: 7px 0;
+  padding: 0;
+  font-size: 0.8rem;
+}
+#feedback .row {
+  margin: 5px;
+}
+#feedback .faq-header h3 {
+  text-align: center;
+  margin: 20px auto;
+}
+#feedback textarea {
+  height: 150px;
+  max-height: 150px;
+}
+#feedback textarea:focus {
+  outline-width: 0;
+}
+#feedback .faqi-btn {
+}
+#feedback .faqi-btn {
+  background: #de08b3;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin: 15px auto 25px;
+  border-radius: 50px;
+  padding: 10px 25px;
+  width: 100%;
+}
+#feedback .faqi-btn:hover {
+  background: #ce01a5;
+  color: #fff;
+}
+@media only screen and (min-width: 768px) {
+  #feedback div.collb {
+    padding: 0 0 0 10px;
+  }
+  #feedback .row {
+    margin: 5px;
+  }
+  #feedback div.contain {
+    width: 80%;
+    margin: 40px auto;
+  }
+  #feedback label {
+    margin: 7px 0;
+    padding: 0;
+    font-size: 1rem;
+  }
+  #feedback input,
+  textarea {
+    background: #ecf5fc80;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+  }
+  #feedback textarea {
+    height: 200px;
+    max-height: 200px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #feedback div.contain {
+    width: 60%;
+    margin: 40px auto;
+  }
+  #feedback .faqi-btn {
+    background: #de08b3;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 15px auto 25px;
+    border-radius: 50px;
+    padding: 10px 25px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  #feedback div.contain {
+    width: 50%;
+    margin: 40px auto;
+  }
+  #feedback .faqi-btn {
+    background: #de08b3;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin: 15px auto 25px;
+    border-radius: 50px;
+    padding: 10px 25px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  #feedback div.contain {
+    width: 50%;
+    margin: 40px auto;
+  }
+  #feedback .faqi-btn {
+    background: #de08b3;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin: 25px auto 25px;
+    border-radius: 50px;
+    padding: 25px 25px;
+    width: 100%;
+  }
+}

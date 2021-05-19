@@ -46,17 +46,7 @@ const Faq = () => {
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li>
                   <a class="dropdown-item" href="#">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Something else here
+                    Answers
                   </a>
                 </li>
               </ul>
@@ -106,7 +96,10 @@ const Faq = () => {
           </div>
         </div>
         <div className="faq-btn-container">
-          <button className="btn shadow-none faq-btn"> SEE MORE</button>
+          <a href="/faq" className="btn shadow-none faq-btn">
+            {" "}
+            SEE MORE
+          </a>
         </div>
       </div>
     </section>

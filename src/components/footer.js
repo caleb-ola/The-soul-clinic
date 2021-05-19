@@ -21,16 +21,16 @@ const Footer = () => {
               <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 ">
                 <p className="footer-heads">RESOURCES</p>
                 <p>
-                  <a href="#">Videos</a>
+                  <a href="/videos">Videos</a>
                 </p>
                 <p>
-                  <a href="#">Webinars</a>
+                  <a href="/events">Webinars</a>
                 </p>
                 <p>
-                  <a href="#">Podcasts</a>
+                  <a href="/podcast">Podcasts</a>
                 </p>
                 <p>
-                  <a href="#">ebooks</a>
+                  <a href="/ebooks">ebooks</a>
                 </p>
               </div>
               <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 ">
@@ -48,10 +48,10 @@ const Footer = () => {
                   <a href="#">Quick Scan</a>
                 </p>
                 <p>
-                  <a href="#">Support Coach</a>
+                  <a href="/coaches">Support Coach</a>
                 </p>
                 <p>
-                  <a href="#">FAQs</a>
+                  <a href="/faq">FAQs</a>
                 </p>
               </div>
               <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 ">

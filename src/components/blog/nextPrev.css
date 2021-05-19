@@ -1,0 +1,15 @@
+#next-prev {
+  padding: 40px 20px;
+  background: #ecf5fc80;
+}
+#next-prev a {
+  text-decoration: none;
+  color: #fff;
+}
+#next-prev .prev-container {
+  padding: 40px 20px;
+}
+
+#next-prev .prev-container p {
+  margin: 20px 10px 20px 0;
+}

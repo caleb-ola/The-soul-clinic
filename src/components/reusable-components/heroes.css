@@ -1,4 +1,4 @@
-.hero-overlay {
+.hero-over {
   position: absolute;
   left: 0;
   right: 0;
@@ -11,13 +11,13 @@
   margin: 20px auto 5px;
   padding: 20px 0 0 0;
 }
-.hero-overlay h1 {
+.hero-over h1 {
   font-size: 1.3rem;
   margin: 0 auto 20px;
   font-weight: 500;
   line-height: 30px;
 }
-.hero-overlay p {
+.hero-over p {
   font-size: 0.8rem;
   font-weight: 350;
   width: 90%;
@@ -46,7 +46,7 @@
   background: #de08b3;
   color: #fff;
 }
-.hero-overlay {
+.hero-over {
   color: #fff;
 }
 
@@ -63,19 +63,19 @@
     background: #f0efef;
     color: #de08b3;
   }
-  .hero-overlay {
+  .hero-over {
     line-height: 20px;
     width: 80%;
     margin: 40px auto 0;
     padding: 40px 0 0 0;
   }
-  .hero-overlay h1 {
+  .hero-over h1 {
     font-size: 1.7rem;
     width: 80%;
     line-height: 35px;
     margin: -15px auto 12px;
   }
-  .hero-overlay p {
+  .hero-over p {
     font-size: 0.9rem;
     width: 80%;
   }
@@ -86,26 +86,26 @@
     font-size: 1.1rem;
     font-weight: 500;
   }
-  .hero-overlay {
+  .hero-over {
     width: 65%;
   }
-  .hero-overlay h1 {
+  .hero-over h1 {
     font-size: 2rem;
     width: 80%;
   }
-  .hero-overlay p {
+  .hero-over p {
     font-size: 1.1rem;
     width: 70%;
   }
 }
 @media only screen and (min-width: 1920px) {
-  .hero-overlay h1 {
+  .hero-over h1 {
     font-size: 2.4rem;
     line-height: 45px;
     width: 70%;
     margin: 0 auto 15px;
   }
-  .hero-overlay p {
+  .hero-over p {
     width: 65%;
     margin: auto;
     font-size: 1.2rem;
