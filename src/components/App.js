@@ -23,7 +23,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/schedule" component={Schedule} />
+        <Route path="/schedule15" component={Schedule} />
         <Route path="/solution" component={Solution} />
         <Route path="/podcasts" component={Podcasts} />
         <Route path="/ebooks" component={Ebooks} />

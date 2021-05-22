@@ -48,7 +48,7 @@ const Header = () => {
                   </li>
 
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/schedule15">
                       Book a free 15 minutes call{" "}
                     </a>
                   </li>

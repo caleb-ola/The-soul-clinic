@@ -18,18 +18,19 @@ button.react-calendar__navigation__label {
 }
 button.react-calendar__tile {
   color: #fff;
-  border: 1px solid #fff;
+  border: 0px solid #fff;
   border-radius: 50px;
   /* padding: 5px 2px; */
   margin: 0px;
 }
 .react-calendar__tile--active:enabled:hover,
-.react-calendar__tile--active:enabled:focus {
-  background: #fff;
-  color: #de08b3;
+.react-calendar__tile--active:enabled:focus,
+button.react-calendar__tile--range {
+  background: #de08b3;
 }
 button.react-calendar__tile--now {
-  background: #de08b3;
+  background: #fff;
+  color: #de08b3;
 }
 button.react-calendar__tile.react-calendar__month-view__days__day--neighboringMonth {
   color: rgb(221, 221, 221);
@@ -42,6 +43,19 @@ button.react-calendar__tile.react-calendar__month-view__days__day--neighboringMo
 }
 .book-btn {
   background-color: #de08b3;
+  margin: 10px;
+  color: #fff;
+}
+.time-btn:hover,
+.time-btn:focus {
+  background: #969696;
+  margin: 5px;
+  color: #fff;
+  /* width: ; */
+}
+.book-btn:hover,
+.book-btn:focus {
+  background: #ce01a5;
   margin: 10px;
   color: #fff;
 }
