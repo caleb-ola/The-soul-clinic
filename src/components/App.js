@@ -16,12 +16,14 @@ import Video from "./video/video";
 import Ebooks from "./ebooks/ebooks";
 import Podcasts from "./podcasts/podcasts";
 import Solution from "./solution/solution";
+import Schedule from "./schedule/schedule";
 
 import "./App.css";
 const App = () => {
   return (
     <BrowserRouter>
       <Switch>
+        <Route path="/schedule" component={Schedule} />
         <Route path="/solution" component={Solution} />
         <Route path="/podcasts" component={Podcasts} />
         <Route path="/ebooks" component={Ebooks} />

@@ -5,7 +5,7 @@ import "./all_ebooks.css";
 
 const AllEbooks = () => {
   return (
-    <section id="all">
+    <section id="all-ebooks">
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-12">
