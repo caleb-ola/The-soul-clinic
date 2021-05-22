@@ -9,6 +9,13 @@ const Calendary = () => {
   const [date, setDate] = useState(new Date());
   const [dis, setDis] = useState(false);
   const [time, setTime] = useState();
+
+  const options = {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+  };
+
   const [confirm, setConfirm] = useState({
     bookOne: "",
     bookTwo: "",
@@ -29,7 +36,7 @@ const Calendary = () => {
       bookFive: "",
       bookSix: "",
     });
-    setTime(<div className="row">{date && date.toString()}</div>);
+    setTime(<h5>{date && date.toLocaleString("en-US", options)}</h5>);
   };
   const confOne = () => {
     setConfirm({
@@ -95,46 +102,46 @@ const Calendary = () => {
   return (
     <div>
       <div className="row">
-        <div className="col-lg-6 col-md-6 col-sm-12">
+        <div className="col-lg-7 col-md-7 col-sm-12">
           <Calendar onClickDay={onChange} value={date} />
         </div>
         <div
-          className="col-lg-6 col-md-6 col-sm-12"
+          className="times col-lg-5 col-md-5 col-sm-12"
           style={{ display: dis ? "block" : "none" }}
         >
           {time}
           <div className="row">
-            <div className="col-lg-12 col-md-12 col-sm-2">
+            <div className="col-lg-12 col-md-12 col-sm-12">
               <a className="btn  shadow-none time-btn" onClick={confOne}>
                 9:00AM
               </a>
               {confirm.bookOne}
             </div>
-            <div className="col-lg-12 col-md-12 col-sm-2">
+            <div className="col-lg-12 col-md-12 col-sm-12">
               <button className="btn  shadow-none time-btn" onClick={confTwo}>
                 10:00AM
               </button>
               {confirm.bookTwo}
             </div>
-            <div className="col-lg-12 col-md-12 col-sm-2">
+            <div className="col-lg-12 col-md-12 col-sm-12">
               <a className="btn  shadow-none time-btn" onClick={confThree}>
                 11:00AM
               </a>
               {confirm.bookThree}
             </div>
-            <div className="col-lg-12 col-md-12 col-sm-2">
+            <div className="col-lg-12 col-md-12 col-sm-12">
               <button className="btn  shadow-none time-btn" onClick={confFour}>
                 12:00PM
               </button>
               {confirm.bookFour}
             </div>
-            <div className="col-lg-12 col-md-12 col-sm-2">
+            <div className="col-lg-12 col-md-12 col-sm-12">
               <a className="btn  shadow-none time-btn" onClick={confFive}>
                 1:00PM
               </a>
               {confirm.bookFive}
             </div>
-            <div className="col-lg-12 col-md-12 col-sm-2">
+            <div className="col-lg-12 col-md-12 col-sm-12">
               <button className="btn  shadow-none time-btn" onClick={confSix}>
                 2:00PM
               </button>

@@ -9,12 +9,15 @@ div.react-calendar {
   color: #fff;
   /* width: 500px; */
   padding: 15px;
+  margin: 10px auto;
 }
 button.react-calendar__navigation__arrow {
   color: #fff;
 }
 button.react-calendar__navigation__label {
   color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
 }
 button.react-calendar__tile {
   color: #fff;
@@ -27,8 +30,14 @@ button.react-calendar__tile {
 .react-calendar__tile--active:enabled:focus,
 button.react-calendar__tile--range {
   background: #de08b3;
+  color: #fff;
 }
 button.react-calendar__tile--now {
+  background: #fff;
+  color: #de08b3;
+}
+button.react-calendar__tile--now:hover,
+.react-calendar__tile--active:hover {
   background: #fff;
   color: #de08b3;
 }
@@ -39,23 +48,81 @@ button.react-calendar__tile.react-calendar__month-view__days__day--neighboringMo
   background: #c2c4ce;
   margin: 5px;
   color: #fff;
-  /* width: ; */
+  width: 40%;
+  font-size: 0.8rem;
 }
 .book-btn {
   background-color: #de08b3;
   margin: 10px;
   color: #fff;
+  font-size: 0.8rem;
 }
 .time-btn:hover,
 .time-btn:focus {
   background: #969696;
   margin: 5px;
   color: #fff;
-  /* width: ; */
+  width: 45%;
 }
 .book-btn:hover,
 .book-btn:focus {
   background: #ce01a5;
   margin: 10px;
   color: #fff;
+}
+.times {
+  text-align: center;
+}
+.times h5 {
+  margin: 15px auto 10px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+@media only screen and (min-width: 1024px) {
+  #schedule {
+    padding: 45px 20px;
+    background: #ecf5fc80;
+  }
+  .times h5 {
+    font-size: 1.2rem;
+  }
+  .time-btn {
+    font-size: 0.8rem;
+  }
+  .book-btn {
+    font-size: 0.8rem;
+  }
+  button.react-calendar__navigation__label {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  button.react-calendar__tile {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .times h5 {
+    font-size: 1.3rem;
+  }
+  .time-btn {
+    font-size: 1rem;
+  }
+  .book-btn {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  #schedule {
+    padding: 50px 20px;
+    background: #ecf5fc80;
+  }
+  .times h5 {
+    font-size: 1.4rem;
+  }
+  .time-btn {
+    font-size: 1.1rem;
+  }
+  .book-btn {
+    font-size: 1.1rem;
+  }
 }
