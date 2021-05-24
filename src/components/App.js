@@ -17,12 +17,17 @@ import Ebooks from "./ebooks/ebooks";
 import Podcasts from "./podcasts/podcasts";
 import Solution from "./solution/solution";
 import Schedule from "./schedule/schedule";
-
+import ScheduleSoul from "./schedule/schedule_soul";
+import ScheduleLead from "./schedule/schedule_lead";
+import UserDashboard from "./dashboards/user_dashboard";
 import "./App.css";
 const App = () => {
   return (
     <BrowserRouter>
       <Switch>
+        <Route path="/user_dashboard" component={UserDashboard} />
+        <Route path="/schedule_lead" component={ScheduleLead} />
+        <Route path="/schedule_soul" component={ScheduleSoul} />
         <Route path="/schedule15" component={Schedule} />
         <Route path="/solution" component={Solution} />
         <Route path="/podcasts" component={Podcasts} />

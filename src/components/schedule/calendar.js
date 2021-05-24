@@ -113,37 +113,37 @@ const Calendary = () => {
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12">
               <a className="btn  shadow-none time-btn" onClick={confOne}>
-                9:00AM
+                9:00
               </a>
               {confirm.bookOne}
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12">
               <button className="btn  shadow-none time-btn" onClick={confTwo}>
-                10:00AM
+                10:00
               </button>
               {confirm.bookTwo}
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12">
               <a className="btn  shadow-none time-btn" onClick={confThree}>
-                11:00AM
+                11:00
               </a>
               {confirm.bookThree}
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12">
               <button className="btn  shadow-none time-btn" onClick={confFour}>
-                12:00PM
+                12:00
               </button>
               {confirm.bookFour}
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12">
               <a className="btn  shadow-none time-btn" onClick={confFive}>
-                1:00PM
+                1:00
               </a>
               {confirm.bookFive}
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12">
               <button className="btn  shadow-none time-btn" onClick={confSix}>
-                2:00PM
+                2:00
               </button>
               {confirm.bookSix}
             </div>

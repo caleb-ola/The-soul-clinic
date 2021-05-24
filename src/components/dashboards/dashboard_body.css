@@ -1,0 +1,108 @@
+#dashboard-body {
+  background: #fceaf7fc;
+  padding: 20px 20px;
+}
+#dashboard-body h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 15px auto 10px;
+}
+#dashboard-body h5 {
+  font-size: 1rem;
+  margin: 5px auto;
+  font-weight: 600;
+}
+#dashboard-body p {
+  font-size: 0.8rem;
+}
+#dashboard-body i {
+  font-size: 0.8rem;
+}
+@media only screen and (min-width: 768px) {
+  #dashboard-body {
+    background: #fceaf7fc;
+    padding: 40px 20px;
+  }
+  #dashboard-body h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 15px auto 10px;
+  }
+  #dashboard-body h5 {
+    font-size: 1rem;
+    margin: 5px auto;
+    font-weight: 600;
+  }
+  #dashboard-body p {
+    font-size: 0.8rem;
+  }
+  #dashboard-body i {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #dashboard-body {
+    background: #fceaf7fc;
+    padding: 40px 20px;
+  }
+  #dashboard-body h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 15px auto 10px;
+  }
+  #dashboard-body h5 {
+    font-size: 1.1rem;
+    margin: 5px auto;
+    font-weight: 600;
+  }
+  #dashboard-body p {
+    font-size: 0.8rem;
+  }
+  #dashboard-body i {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  #dashboard-body {
+    background: #fceaf7fc;
+    padding: 40px 20px;
+  }
+  #dashboard-body h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 15px auto 10px;
+  }
+  #dashboard-body h5 {
+    font-size: 1.2rem;
+    margin: 5px auto;
+    font-weight: 600;
+  }
+  #dashboard-body p {
+    font-size: 0.9rem;
+  }
+  #dashboard-body i {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  #dashboard-body {
+    background: #fceaf7fc;
+    padding: 40px 20px;
+  }
+  #dashboard-body h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 15px auto 10px;
+  }
+  #dashboard-body h5 {
+    font-size: 1.5rem;
+    margin: 5px auto;
+    font-weight: 600;
+  }
+  #dashboard-body p {
+    font-size: 1.1rem;
+  }
+  #dashboard-body i {
+    font-size: 1.1rem;
+  }
+}

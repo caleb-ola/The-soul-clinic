@@ -31,7 +31,7 @@ const Header = () => {
               <li className="nav-item dropdown ">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  href="/schedule_soul"
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -42,7 +42,7 @@ const Header = () => {
 
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/schedule_lead">
                       Speak with a specialized coach{" "}
                     </a>
                   </li>

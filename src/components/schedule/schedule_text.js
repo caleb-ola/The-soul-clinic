@@ -12,6 +12,12 @@ const ScheduleText = (props) => {
         {props.time}
       </p>
 
+      {props.coach && (
+        <p>
+          <i class="fas fa-brain"></i>
+          {props.coach}
+        </p>
+      )}
       <p>
         <i class="fas fa-globe-africa"></i>
         {props.timeZone}

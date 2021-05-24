@@ -1,0 +1,26 @@
+#return-bar {
+  text-align: end;
+  padding: 20px 10px;
+  color: #f832d0;
+  font-size: 0.8rem;
+}
+@media only screen and (min-width: 768px) {
+  #return-bar {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #return-bar {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  #return-bar {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  #return-bar {
+    font-size: 1.2rem;
+  }
+}

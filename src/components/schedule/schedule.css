@@ -49,13 +49,17 @@ button.react-calendar__tile.react-calendar__month-view__days__day--neighboringMo
   margin: 5px;
   color: #fff;
   width: 40%;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  padding: 10px;
 }
 .book-btn {
   background-color: #de08b3;
   margin: 10px;
   color: #fff;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  padding: 10px;
 }
 .time-btn:hover,
 .time-btn:focus {
@@ -88,9 +92,11 @@ button.react-calendar__tile.react-calendar__month-view__days__day--neighboringMo
   }
   .time-btn {
     font-size: 0.8rem;
+    padding: 10px;
   }
   .book-btn {
     font-size: 0.8rem;
+    padding: 10px;
   }
   button.react-calendar__navigation__label {
     font-size: 1rem;
@@ -105,10 +111,17 @@ button.react-calendar__tile.react-calendar__month-view__days__day--neighboringMo
     font-size: 1.3rem;
   }
   .time-btn {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .book-btn {
-    font-size: 1rem;
+    font-size: 1.1rem;
+  }
+  button.react-calendar__navigation__label {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  button.react-calendar__tile {
+    font-size: 1.1rem;
   }
 }
 @media only screen and (min-width: 1920px) {
@@ -120,9 +133,19 @@ button.react-calendar__tile.react-calendar__month-view__days__day--neighboringMo
     font-size: 1.4rem;
   }
   .time-btn {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    /* padding: 15px auto; */
+    padding: 10px;
   }
   .book-btn {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+  button.react-calendar__navigation__label {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  button.react-calendar__tile {
     font-size: 1.1rem;
   }
 }
