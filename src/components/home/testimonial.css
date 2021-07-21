@@ -232,7 +232,7 @@ button {
   /* #testimonial {
     height: 500px;
   } */
-  .navbar.navbar-expand.navbar-light.new-Nav {
+  #testimonial .navbar.navbar-expand.navbar-light.new-Nav {
     display: inline;
   }
   .col h3 {
@@ -290,7 +290,7 @@ button {
   /* #testimonial {
       height: 500px;
     } */
-  .navbar.navbar-expand.navbar-light.new-Nav {
+  #testimonial .navbar.navbar-expand.navbar-light.new-Nav {
     display: inline;
   }
   .col h3 {

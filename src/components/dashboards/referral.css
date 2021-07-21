@@ -1,0 +1,198 @@
+#referral {
+  width: 100%;
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+}
+.referral-container {
+  width: 100%;
+}
+#referral h6 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+#referral .referral-btn {
+  font-size: 0.5rem;
+  background: #fcb5ee;
+  color: #190114a6;
+  border-radius: 50px;
+  margin: 10px auto;
+}
+#referral .referral-btn-two {
+  font-size: 0.5rem;
+  background: #de08b3;
+  color: #ffffff;
+  border-radius: 50px;
+  margin: 10px auto;
+}
+#referral p {
+  font-size: 0.8rem;
+}
+.or p {
+  margin: 8px auto 8px;
+}
+.referral-socials .hero-socials {
+}
+.referral-socials ul.social {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.referral-socials ul.social > li {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+}
+
+/* .referral-socials ul.social > li:hover {
+    display: inline-block;
+    color: #de08b3;
+  } */
+.referral-socials ul > li > a {
+  background: none;
+}
+.referral-socials ul.social > li > a .fa-instagram {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 35px;
+  width: 35px;
+  height: 35px;
+  border-radius: 36px;
+  background-color: #f04360;
+  color: #fff;
+  margin: 0px 0;
+}
+.referral-socials ul.social > li > a .fa-twitter {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 35px;
+  width: 35px;
+  height: 35px;
+  border-radius: 36px;
+  margin: 0px 0;
+  background-color: #5edeef;
+  color: #fff;
+}
+.referral-socials ul.social > li > a .fa-facebook-f {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 35px;
+  width: 35px;
+  height: 35px;
+  border-radius: 36px;
+  margin: 0px 0;
+  background-color: #4d9ee0;
+  color: #fff;
+}
+.referral-socials ul.social > li > a .fa-facebook-f:hover {
+  background-color: #fff;
+  color: #4d9ee0;
+}
+.referral-socials ul.social > li > a .fa-twitter:hover {
+  background-color: #fff;
+  color: #5edeef;
+}
+
+.referral-socials ul.social > li > a .fa-instagram:hover {
+  text-decoration: none;
+  /* background-color: #ee7c22; */
+  background-color: #fff;
+  color: #f04360;
+}
+@media only screen and (min-width: 768px) {
+  #referral {
+    text-align: center;
+  }
+
+  #referral h6 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  #referral .referral-btn {
+    font-size: 0.7rem;
+    background: #fcb5ee;
+    color: #190114a6;
+    border-radius: 50px;
+    margin: 10px auto;
+  }
+  #referral p {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .referral-container {
+    text-align: left;
+  }
+  #referral .referral-btn {
+    font-size: 0.8rem;
+  }
+  #referral h6 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  #referral .referral-btn-two {
+    font-size: 0.8rem;
+    background: #de08b3;
+    color: #ffffff;
+    border-radius: 50px;
+    margin: 10px auto;
+  }
+  #referral .referral-content p {
+    font-size: 1rem;
+  }
+  .or p {
+    margin: 15px auto;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .referral-container {
+    text-align: left;
+  }
+  #referral h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  #referral .referral-btn {
+    font-size: 0.9rem;
+  }
+  #referral .referral-btn-two {
+    font-size: 0.9rem;
+    background: #de08b3;
+    color: #ffffff;
+    border-radius: 50px;
+    margin: 10px auto;
+  }
+  #referral .referral-content p {
+    font-size: 1.1rem;
+  }
+  .or p {
+    margin: 15px auto;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .referral-container {
+    text-align: left;
+  }
+  #referral h6 {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  #referral .referral-btn {
+    font-size: 1rem;
+  }
+  #referral .referral-btn-two {
+    font-size: 1rem;
+    background: #de08b3;
+    color: #ffffff;
+    border-radius: 50px;
+    margin: 10px auto;
+  }
+  #referral .referral-content p {
+    font-size: 1.1rem;
+  }
+  .or p {
+    margin: 15px auto;
+  }
+}

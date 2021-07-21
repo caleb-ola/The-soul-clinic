@@ -1,0 +1,152 @@
+.details-card {
+  background: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+.coach-image-container {
+  padding: 15px;
+}
+.coach-title-container {
+  padding: 2px 10px;
+  text-align: center;
+}
+.coach-title-container h6 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.details-card p {
+  text-align: left;
+}
+.coach-title-container p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #de08b3;
+  text-align: center;
+}
+.timing {
+  margin: 15px auto;
+}
+.timing p {
+  padding: 5px 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.detail-btn {
+  background: #de08b3;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 0.8rem;
+}
+.detail-btn:hover {
+  background: #ce08a6;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 0.8rem;
+}
+.coach-title-paragraph p {
+  font-size: 1.1rem;
+  color: #384d74;
+}
+.timing p i {
+  color: #de08b3;
+  padding: 0 5px;
+}
+@media only screen and (min-width: 768px) {
+  .coach-title-container {
+    padding: 30px 10px;
+    text-align: left;
+  }
+  .coach-title-container p {
+    text-align: left;
+  }
+  .details-card {
+    background: #fff;
+    padding: 40px 20px;
+    text-align: left;
+  }
+  .timing p {
+    padding: 5px 0;
+    margin-bottom: 0;
+    text-align: left;
+  }
+  .coach-title-paragraph p {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .coach-title-container {
+    padding: 30px 10px;
+  }
+  .timing p {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .coach-title-container {
+    padding: 30px 30px;
+    text-align: left;
+  }
+  .coach-title-container p {
+    text-align: left;
+  }
+  .details-card {
+    background: #fff;
+    padding: 40px 20px;
+    text-align: left;
+  }
+  .timing p {
+    padding: 5px 0;
+    margin-bottom: 0;
+    text-align: left;
+  }
+  .coach-title-container h6 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .coach-title-paragraph p {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .detail-btn {
+    background: #de08b3;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    padding: 10px 30px;
+  }
+  .coach-title-container h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .timing p {
+    font-size: 1rem;
+  }
+  .coach-title-container p {
+    font-size: 1rem;
+  }
+  .coach-title-paragraph p {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .detail-btn {
+    background: #de08b3;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    /* padding: 10px 30px; */
+  }
+  .coach-title-container h6 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .timing p {
+    font-size: 1.1rem;
+  }
+  .coach-title-container p {
+    font-size: 1.1rem;
+  }
+  .coach-title-paragraph p {
+    font-size: 1.1rem;
+  }
+}

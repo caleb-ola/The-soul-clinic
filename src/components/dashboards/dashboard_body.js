@@ -1,5 +1,7 @@
 import React from "react";
 import DashboardCard from "./dashboard_card";
+import MeetingLog from "./meeting_log";
+import Referral from "./referral";
 
 import "./dashboard_body.css";
 const DashboardBody = () => {
@@ -46,6 +48,13 @@ const DashboardBody = () => {
           </div>
         </div>
         <h3>Meeting Logs</h3>
+        <div>
+          <MeetingLog />
+        </div>
+        <h3>Referral</h3>
+        <div>
+          <Referral />
+        </div>
       </div>
     </section>
   );

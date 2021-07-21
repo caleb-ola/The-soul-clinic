@@ -8,19 +8,19 @@
   margin: 15px auto;
   border-radius: 10px;
 }
-.fa-arrow-right {
+.dash-card .fa-arrow-right {
   background: #de08b3;
   color: #fff;
   padding: 20px;
   border-radius: 50px;
 }
-.fa-volume-up {
+.dash-card .fa-volume-up {
   background: #4d9ee0;
   color: #fff;
   padding: 20px;
   border-radius: 50px;
 }
-.fa-phone-volume {
+.dash-card .fa-phone-volume {
   background: #ff9e07;
   color: #fff;
   padding: 20px;

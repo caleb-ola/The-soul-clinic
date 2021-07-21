@@ -1,0 +1,90 @@
+.filter-row {
+  margin: 10px auto;
+}
+.filter-container {
+  padding: 0;
+}
+.filter-row .dropdown {
+  font-size: 0.8rem;
+}
+.filter-row .dropdown .dropdown-toggle {
+  font-size: 0.8rem;
+  border: 1px solid #c8ced4;
+  margin: 5px;
+}
+.table {
+  font-size: 0.7rem;
+}
+.table td {
+  padding: 16px 8px 8px 8px;
+}
+.table-btn {
+  background: #de08b3;
+  border-radius: 50px;
+  font-size: 0.6rem;
+  color: #fff;
+  padding: 5px 20px;
+}
+.table-btn:hover {
+  background: #ce07a6;
+
+  color: #fff;
+}
+thead tr th {
+  font-weight: 400;
+}
+tbody tr td {
+  font-weight: 600;
+}
+tbody tr td button {
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 768px) {
+  .filter-row .dropdown .dropdown-toggle {
+    font-size: 0.9rem;
+    border: 1px solid #c8ced4;
+    margin: 5px;
+  }
+  .filter-row .dropdown {
+    font-size: 0.9rem;
+  }
+  .table {
+    font-size: 0.8rem;
+  }
+  .table-btn {
+    font-size: 0.7rem;
+    margin: -4px 0 0 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 1440px) {
+  .filter-row .dropdown .dropdown-toggle {
+    font-size: 1.2rem;
+    border: 1px solid #c8ced4;
+    margin: 5px;
+  }
+  .filter-row .dropdown {
+    font-size: 1rem;
+  }
+  .table {
+    font-size: 1rem;
+  }
+  .table-btn {
+    font-size: 0.9rem;
+    margin: -4px 0 0 0;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .filter-row .dropdown {
+    font-size: 1.2rem;
+  }
+  .table {
+    font-size: 1rem;
+  }
+  .table-btn {
+    font-size: 0.9rem;
+    margin: -4px 0 0 0;
+  }
+}
