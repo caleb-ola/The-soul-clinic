@@ -3,7 +3,7 @@ import React from "react";
 import "./dashboard_card.css";
 const DashboardCard = (props) => {
   return (
-    <div className="dash-card">
+    <div id="#dash-card" className="dash-card">
       <div className="row">
         <h5>{props.title}</h5>
         <div className="col-lg-8 col-md-8 col-sm-8 card-content">

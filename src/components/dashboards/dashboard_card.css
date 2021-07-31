@@ -2,25 +2,25 @@
   padding: 0;
   text-align: center;
 }
-.dash-card {
+#dash_card .dash-card {
   background: #fff;
   padding: 20px 10px;
   margin: 15px auto;
   border-radius: 10px;
 }
-.dash-card .fa-arrow-right {
+#dash_card .dash-card .fa-arrow-right {
   background: #de08b3;
   color: #fff;
   padding: 20px;
   border-radius: 50px;
 }
-.dash-card .fa-volume-up {
+#dash_card .dash-card .fa-volume-up {
   background: #4d9ee0;
   color: #fff;
   padding: 20px;
   border-radius: 50px;
 }
-.dash-card .fa-phone-volume {
+#dash_card .dash-card .fa-phone-volume {
   background: #ff9e07;
   color: #fff;
   padding: 20px;
